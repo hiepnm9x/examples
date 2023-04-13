@@ -6,7 +6,10 @@ on:
     - master
     paths:
     - gradle/**
-
+env:
+  LAUNCHABLE_TOKEN: ${{ secrets.LAUNCHABLE_TOKEN_BAZEL }}
+  LAUNCHABLE_DEBUG: 1
+  LAUNCHABLE_REPORT_ERROR: 1
 jobs:
   build:
     runs-on: ubuntu-latest

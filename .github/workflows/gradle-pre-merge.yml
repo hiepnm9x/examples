@@ -6,8 +6,9 @@ on:
     - gradle/**
 
 env:
-  LAUNCHABLE_ORGANIZATION: "examples"
-  LAUNCHABLE_WORKSPACE: "gradle"
+  LAUNCHABLE_TOKEN: ${{ secrets.LAUNCHABLE_TOKEN_BAZEL }}
+  LAUNCHABLE_DEBUG: 1
+  LAUNCHABLE_REPORT_ERROR: 1
 
 jobs:
   build:
