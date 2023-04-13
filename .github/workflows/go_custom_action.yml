@@ -7,7 +7,7 @@ on:
     branches: [master]
 
 env:
-  LAUNCHABLE_TOKEN: ${{ secrets.LAUNCHABLE_TOKEN_GO }}
+  LAUNCHABLE_TOKEN: ${{ secrets.LAUNCHABLE_TOKEN }}
   LAUNCHABLE_DEBUG: 1
   LAUNCHABLE_REPORT_ERROR: 1
 

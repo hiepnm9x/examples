@@ -18,7 +18,7 @@ on:
   workflow_dispatch:
 
 env:
-  LAUNCHABLE_TOKEN: ${{ secrets.LAUNCHABLE_TOKEN_BAZEL }}
+  LAUNCHABLE_TOKEN: ${{ secrets.LAUNCHABLE_TOKEN }}
   LAUNCHABLE_DEBUG: 1
   LAUNCHABLE_REPORT_ERROR: 1
 
